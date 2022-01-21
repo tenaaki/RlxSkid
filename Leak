@@ -26,7 +26,7 @@ local plrs = game:GetService("Players")
 local lplr = game:GetService("Players").LocalPlayer
 local presskeytoaim = true; local aimkey = library.flags.farBind; local aimkey2 = library.flags.closeBind
 local TeamBased = false;
-aimbothider = true; aimbothiderspeed = .9
+aimbothider = true; aimbothiderspeed = 0.0356
 local Aim_Assist = false ; Aim_Assist_Key = {Enum.KeyCode.LeftControl, "z"}
 local movementcounting = true
 local movementcounting2 = true
